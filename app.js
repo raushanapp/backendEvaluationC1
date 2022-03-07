@@ -21,7 +21,7 @@ function checkPermission(data) {
             return next()
         }
 
-       return res.send.status(404).send('Data is not found')
+       return res.status(404).send('Data is not found')
     }
 }
 
